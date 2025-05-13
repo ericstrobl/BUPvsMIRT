@@ -1,0 +1,11 @@
+Package: BUPvsMIRT
+Type: Package
+Title: Bupropion versus Mirtazapine
+Version: 0.1.0
+Author: Eric V. Strobl
+Maintainer: Eric V. Strobl <eric.strobl@pitt.edu>
+Description: Code associated with ``Consistent Differential Effects of Bupropion and Mirtazapine in Major Depression.''
+Depends: qvalue
+License: CC BY-NC 4.0
+Encoding: UTF-8
+LazyData: true
