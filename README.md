@@ -25,11 +25,12 @@ We illustrate the pipeline with synthetic data, since the STAR*D and CO-MED data
 > mod=SV(Tx=data$Tx,Y=Y1,nc=nc) # run the SV algorithm with nc components
 
 > res=permutation_test_SelInf(mod,data$Tx,Y1,nc,ncs=2:5) # perform permutation testing with post-model selection inference
+
 > print(res)
 
 > res_rep=permutation_test_SelInf(mod,data$Tx,Y1,nc,ncs=2:5,Tx_focus=c(1,2)) # perform permutation testing with post-model selection inference but comparing two particular treatments in replication testing (e.g., with CO-MED)
 
-# Outputs
+# Permutation Testing Outputs
 
 A list with:
 
