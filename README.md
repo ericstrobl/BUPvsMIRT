@@ -16,7 +16,7 @@ First install the BiocManager and qvalue packages. Then:
 
 We illustrate the pipeline with synthetic data, since the STAR*D and CO-MED datasets require prior approval:
 
-> data = generate_synth(nsamps=1000, nF=3) # generate synthetic data with 1000 samples, five treatments and three latent factors
+> data = generate_synth() # generate synthetic data with 1000 samples, five treatments and three latent factors
 
 > Y1 = lm.fit(cbind(data$X,1),data$Y)$residuals # partial out nuisance variables
 
