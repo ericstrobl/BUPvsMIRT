@@ -34,11 +34,11 @@ We illustrate the pipeline with synthetic data, since the STAR*D and CO-MED data
 
 A list with:
 
-`omnibus` = omnibus absolute sum statistic and p-values
+`omnibus` = omnibus absolute sum statistic and p-value
 
-`factors` = absolute sum statistics, uncorrected p-values, and corrected p-values for each factor
+`factors` = absolute sum statistic, uncorrected p-value, and corrected p-value for each factor
 
-`tx_pairs` = difference statistics, uncorrected p-values, and corrected p-values for each treatment pair
+`tx_pairs` = difference statistic, uncorrected p-value, and corrected p-value for each treatment pair
 
 
 
