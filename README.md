@@ -14,7 +14,7 @@ First install the BiocManager and qvalue packages. Then:
 
 # Analysis Pipeline
 
-Since the STAR*D and CO-MED datasets requires prior approval, we illustrate the pipeline with synthetic data.
+We illustrate the pipeline with synthetic data, since the STAR*D and CO-MED datasets require prior approval:
 
 > data = generate_synth(nsamps=1000, nF=3) # generate synthetic data with 1000 samples, five treatments and three latent factors
 
